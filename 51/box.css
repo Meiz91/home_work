@@ -1,0 +1,50 @@
+html{
+ background-color: black;
+ 
+}
+body{
+max-width: 1500px;
+min-height: 725px;
+margin: auto;
+background-color: white;
+}
+
+
+.pos{
+float: left;
+background-color: yellow;
+border: rgb(3, 3, 3);
+padding-left:8em ;
+padding-right: 8em;
+padding-top: 3em;
+padding-bottom: 3em;
+margin-left:1em;
+margin-right: 1em;
+margin-bottom: 1em;
+margin-top: 1em;
+border-style: solid;
+border-width: 5px;
+
+display:inline;
+}
+p{
+    clear: both;
+}
+.container{
+    position: relative;
+    border:3px;
+    height:fit-content;
+}
+.center{
+    margin:0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width: fit-content;
+    -ms-transform: translate(-50%,50%);
+    transform: translate(-50%,-50%);
+}
+
+
+
+
