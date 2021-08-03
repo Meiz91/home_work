@@ -1,0 +1,185 @@
+html {
+        padding-bottom: 1.9em
+    }
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+    video {       
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+    a {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20pt;
+            font-weight: normal;
+            font-style: oblique;
+            border: 5px;
+            border-bottom-style: solid;
+            border-color: black;
+            border-radius: 50px;
+            display: inline;
+            color: #b60303;
+            text-decoration: none;
+            text-align: center;
+            align-content: center;
+            margin: center;
+            padding-bottom: 0em;
+            margin-inline-start: 1em;
+            margin-inline-end: 0em;
+            display: inline;
+            padding-left: .5em;
+            padding-right: .5em;
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30pt;
+            font-style: italic;
+            font-weight: 100;
+            text-emphasis-color: #b60303;
+            text-shadow: 1px 1px 2px rgb(47, 5, 146);
+            color: #b60303;
+            text-align: center;
+
+        }
+
+        footer {
+            position: relative;
+            margin: auto;
+            width: auto;
+            height: auto;
+            display: block;
+            padding: .25em;
+            color: #b60303;
+
+        }
+
+
+        body {
+            margin: auto;
+            padding: 0px;
+            text-align: center;
+            background: linear-gradient(90deg, rgb(7, 7, 7), rgb(71, 3, 110), rgb(52, 7, 82), rgb(7, 7, 7));
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        blockquote,
+        q {
+            quotes: none;
+        }
+
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            content: '';
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        p {
+            padding: 1em;
+        }
+    
