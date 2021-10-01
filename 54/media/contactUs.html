@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/54/css/normalize.min.css">
+</head>
+
+<body>
+    <header>
+        Meiz Artz
+    </header>
+    <h2>Feel free to send me a message. I love to hear what viewers think of my work. I look forward to hearing from
+        you. </h2>
+    <form action="contact.php" method="POST">
+        <p>All Fields with * are required</p>
+        <label> First name:*
+            <input name="first name" required minlength="1" maxlength="10" placeholder="Enter first name.">
+        </label>
+        <label for="last name">Last name:*</label>
+        <input id="Last name" name="last name" required maxlength="10" minlength="1" placeholder="Enter last name.">
+        <Label>Feedback:*
+            <textarea required placeholder="Enter comments here"></textarea>
+        </Label><br>
+        How likely are you to recomend this site to a friend?<br>
+        <label for="very">Very Likely</label>
+        <input type="checkbox" id="Very Likely" name="Very Likely" value="checked">
+        <label> Probably:
+            <input type="checkbox" value="checked" name="Probably">
+        </label>
+        <label> Maybe:
+            <input type="checkbox" name="Maybe" value="checked">
+        </label>
+        <label> Unlikely:
+            <input type="checkbox" name="unlikely" value="checked">
+        </label>
+        <br><br>
+        <Label> Email:*
+            <input type="email" name="email" placeholder="Enter email adress here" required>
+        </label>
+        <input type="submit">
+    </form>
+    <a href="/54/media/index.html">Home</a>
+    <a href="/54/media/products.html">Products</a>
+    <a href="/54/media/about.html">About Us</a>
+
+
+    <footer>
+        <a href="/54/media/mydoc.doc"> Terms and conditions</a>
+        <br>Live Love, Art <br>&#169; MEIZ ARTZ
+    </footer>
+</body>
+
+</html>

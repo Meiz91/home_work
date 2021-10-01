@@ -1,0 +1,178 @@
+html{
+    background: white;
+}
+ header{
+    color: red;
+    text-align: center;
+    font-size: 4em;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(5, 5, 5);
+    box-sizing: border-box;
+    position:absolute top 1px center;
+    }
+   
+    a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20pt;
+        font-weight: normal;
+        font-style: oblique;
+        border: 5px ; 
+        border-bottom-style: solid;
+        border-color: black;
+        border-radius: 50px;
+        display:block;
+        color:#b60303 ;
+        text-decoration:none;
+        text-align: center;
+        padding-bottom: 0em;
+        padding-left: .5em;
+        padding-right: .5em;
+        padding-bottom: 0em;
+        margin-inline-start:4em;
+        margin-inline-end: 4em;
+        
+    }
+    a[href$=".doc"], a[href$=".docx"]{
+        background-image: url(/54/images/word.png);
+        background-repeat: no-repeat;
+    }
+    footer{
+        padding: 3em;
+        align-content: center;
+    }
+    
+    h2{
+    color: red;
+    text-align: center;
+    font-size: 3em;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px rgb(5, 5, 5);
+
+    }
+body{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding: 4em;
+    padding-top: 1em;
+    box-sizing: border-box;
+    background:linear-gradient(90deg, rgb(7, 7, 7),rgb(71, 3, 110), rgb(52, 7, 82), rgb(7, 7, 7));
+    }
+
+
+table{
+    border-right: 1px solid rgb(3, 3, 3);
+    border-left: 1px solid rgb(3, 3, 3);
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    color:red;
+}
+td,th{
+    padding:.2em .5em;
+    border-right: 1px solid rgb(5, 5, 5);
+}
+#aboutUs2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: normal;
+    color: #b60303;
+    text-shadow:3px 3px 5px black;
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+     }
+
+
+@media screen and (min-width:800px ) {
+    body{
+        width:80%;
+        
+    }
+}
+tr:nth-child(2n){
+    background-color:none;
+}
+tbody tr td:hover{
+    background-color: blue;
+    font-weight:bolder;
+}
+footer{
+    position: absolute bottom;
+}
+form{
+    width: 80%;
+    margin: auto;
+    color: red;
+}
+input:not([type='checkbox']){
+    background-color: rgb(134, 34, 192);
+    color: rgb(35, 1, 51);
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 1em;
+}
+textarea{
+    background-color: rgb(134, 34, 192);
+    width: 100%;
+    height: 5em;
+    display: block;
+    margin:1em;
+}
+label input:not([type='checkbox']){
+    display: inline-block;
+}
+input[type="Submit"]{
+    color: rgb(35, 1, 51);
+    margin: 1em;
+}
+video{
+    object-fit: fill;
+    height: 400px;  
+    width: 350px;
+    border: 2px #b60303;
+    border-radius: 50px;
+    border-style: solid;
+    margin-left: 3em;
+    margin-right: 3em;
+    display: inline;
+    }
+    img{
+        height:400px; width:350px;
+        border: 2px #b60303;
+        border-radius: 50px;
+        border-style: solid;
+        margin-left: 3em;
+        margin-right: 3.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 0em;
+        display: inline;
+    
+    }
+   body p img{
+        height: 250px;
+        width: 200px;
+        display: inline;
+        
+    }
+    .homeimg{
+        object-fit: fill;
+        padding:0em;
+        width:100%;
+        margin: auto;
+        box-sizing: border-box;
+    
+    }
+    footer{
+        color: red;
+    }
