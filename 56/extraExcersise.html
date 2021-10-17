@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            font-size: 2em;
+            justify-content: center;
+            grid-template-columns: repeat(1, 400px 200px 400px);
+            grid-template-rows: repeat(1, 400px 200px 400px);
+        }
+
+        .second {
+            background-color: red;
+        }
+
+        .sixth {
+            background-color: purple;
+        }
+
+        .fourth {
+            background-color: green;
+        }
+
+        .eighth {
+            background-color: brown;
+        }
+
+
+        .part {
+            display: grid;
+            grid-template: 1fr 1fr / 1fr 1fr;
+        }
+
+        .one {
+            background-color: red;
+        }
+
+        .two {
+            background-color: purple;
+        }
+
+        .three {
+            background-color: green;
+        }
+
+        .four {
+            background-color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <div class="second"></div>
+    <div></div>
+    <div class="fourth"></div>
+    <div class="part">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+    </div>
+    <div class="sixth"></div>
+    <div></div>
+    <div class="eighth"></div>
+    <div></div>
+
+
+</body>
+
+</html>
